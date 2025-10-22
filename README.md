@@ -1,17 +1,15 @@
-🍕 Pizza Sales SQL Analysis Project
+# PIZZA SALES SQL ANALYSIS
+About the Project
 
-📘 Project Overview
+This is my first SQL analysis project that I created and uploaded on GitHub.
+The project is based on a Pizza Sales dataset where I used PostgreSQL to analyze sales data and find useful insights like total revenue, top-selling pizzas, and sales by category.
 
-This project analyzes pizza sales data using PostgreSQL to uncover key business insights and performance metrics.
-The analysis covers sales trends, category-wise contributions, and top-performing pizzas by revenue, quantity, and order count.
+# About the Dataset
 
-📁 About the Dataset
-
-The dataset is stored in a table called pizza_data.
+The dataset is stored in a table named pizza_data.
 It contains information about pizza orders such as:
 
 Column Name	Description
-
 pizza_id	Unique ID for each pizza
 order_id	Unique order number
 pizza_name	Name of the pizza
@@ -20,65 +18,74 @@ pizza_size	Size of pizza (S, M, L, XL)
 quantity	Number of pizzas ordered
 unit_price	Price of one pizza
 total_price	Total price for that order
-order_date	Date of order
-order_time	Time of order
+order_date	Date of the order
+order_time	Time of the order
+Objectives of the Project
 
-🎯 What I Tried to Find
+The main goal of this project was to write SQL queries that answer the following business questions:
 
-In this project, I wrote SQL queries to find:
+What is the total revenue generated?
 
-Total revenue made from pizza sales
+How many orders were placed?
 
-Total number of orders
+How many pizzas were sold in total?
 
-Total pizzas sold
+What is the average order value?
 
-Average order value
+What is the average number of pizzas per order?
 
-Average number of pizzas per order
+Which pizza categories performed the best?
 
-Most popular pizza categories
+Which are the top and bottom 5 pizzas by revenue, quantity, and orders?
 
-Top and bottom 5 pizzas by revenue, quantity, and orders
-
-📊 Few Key Results
+Key Results
 KPI	Value
 Total Revenue	1795.75
 Total Orders	20
 Total Pizzas Sold	95
-Avg Order Value	89.79
-Avg Pizzas per Order	4.75
+Average Order Value	89.79
+Average Pizzas per Order	4.75
+Some Observations
 
-Veggie pizzas brought in the highest sales percentage.
+Veggie pizzas contributed the highest percentage of total sales.
 
-“The Thai Chicken Pizza” had the highest revenue.
+The Thai Chicken Pizza generated the most revenue.
 
-“The Italian Supreme Pizza” was the most ordered.
+The Italian Supreme Pizza was the most frequently ordered pizza.
 
-“The Napolitana Pizza” had the lowest sales.
+The Napolitana Pizza had the lowest sales.
 
-🧠 What I Learned
+SQL Concepts Used
 
-How to calculate KPIs using SQL (SUM, COUNT, AVG, etc.)
+Aggregate functions: SUM(), COUNT(), AVG()
 
-How to group data and calculate percentages
+Date functions: TO_CHAR(), EXTRACT()
 
-How to use TO_CHAR() and EXTRACT() for date analysis
+Grouping and ordering with GROUP BY and ORDER BY
 
-How to find top and bottom performers using ORDER BY and LIMIT
+Subqueries and percentage calculations
 
-💬 Notes
+Limiting results using LIMIT
 
-This project helped me practice SQL concepts and understand how data analysis works on real-like datasets.
-I plan to do more such small SQL projects and improve my skills!
+Tools Used
 
+PostgreSQL
 
+DBeaver / pgAdmin for writing and running queries
 
+GitHub for sharing and version control
 
+What I Learned
 
+How to calculate KPIs using SQL
 
+How to analyze data using aggregate and date functions
 
+How to find top and bottom performing items
 
+How to use SQL for simple business insights
 
+Author
 
-
+Sushmita Kumari
+Aspiring Business Analyst | Learning SQL, Excel, and Power BI
