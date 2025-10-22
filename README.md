@@ -9,7 +9,8 @@ The project is based on a Pizza Sales dataset where I used PostgreSQL to analyze
 The dataset is stored in a table named pizza_data.
 It contains information about pizza orders such as:
 
-Column Name	Description
+# Column Name	Description
+
 pizza_id	Unique ID for each pizza
 order_id	Unique order number
 pizza_name	Name of the pizza
@@ -22,7 +23,7 @@ order_date	Date of the order
 order_time	Time of the order
 Objectives of the Project
 
-The main goal of this project was to write SQL queries that answer the following business questions:
+## The main goal of this project was to write SQL queries that answer the following business questions:
 
 What is the total revenue generated?
 
@@ -38,7 +39,8 @@ Which pizza categories performed the best?
 
 Which are the top and bottom 5 pizzas by revenue, quantity, and orders?
 
-Key Results
+# Key Results
+
 KPI	Value
 Total Revenue	1795.75
 Total Orders	20
@@ -55,9 +57,9 @@ The Italian Supreme Pizza was the most frequently ordered pizza.
 
 The Napolitana Pizza had the lowest sales.
 
-SQL Concepts Used
+# SQL Concepts Used
 
-Aggregate functions: SUM(), COUNT(), AVG()
+## Aggregate functions: SUM(), COUNT(), AVG()
 
 Date functions: TO_CHAR(), EXTRACT()
 
@@ -67,7 +69,7 @@ Subqueries and percentage calculations
 
 Limiting results using LIMIT
 
-Tools Used
+## Tools Used
 
 PostgreSQL
 
@@ -75,7 +77,7 @@ DBeaver / pgAdmin for writing and running queries
 
 GitHub for sharing and version control
 
-What I Learned
+### What I Learned
 
 How to calculate KPIs using SQL
 
@@ -84,8 +86,3 @@ How to analyze data using aggregate and date functions
 How to find top and bottom performing items
 
 How to use SQL for simple business insights
-
-Author
-
-Sushmita Kumari
-Aspiring Business Analyst | Learning SQL, Excel, and Power BI
